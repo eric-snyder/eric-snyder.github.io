@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet" type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/contact.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>| Eric Snyder | Contact |</title>
+</head>
+<body>
+
+	<form class="cd-form floating-labels">
+
+		<h1>Say hi.</h1>
+
+		<p>Send me an email here, or feel free to follow me on social media, 
+			like <a href="https://www.instagram.com/gayagendaofficial">Instagram</a>, <a href="#0">Medium</a>, or <a href="https://www.github.com/eric-snyder">Github</a>.
+		</p>
+
+		<fieldset>
+			<legend>you</legend>
+
+			<div class="error-message">
+				<p>please enter a valid email address</p>
+			</div>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">name</label>
+				<input class="user" type="text" name="cd-name" id="cd-name" required>
+		    </div> 
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-email">email</label>
+				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+		    </div>
+		</fieldset>
+
+		<fieldset>
+			<legend>your message</legend>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-textarea">text</label>
+      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="Send Message">
+		    </div>
+		</fieldset>
+	</form>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
