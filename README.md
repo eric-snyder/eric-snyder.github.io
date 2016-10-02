@@ -1,12 +1,12 @@
-Stretchy Navigation
+Animated Intro Section
 =========
 
-A rounded navigation trigger that stretches on click/tap to reveal the navigation items.
+A collection of fancy text effects, to animate the tagline and action buttons of your website intro section.
 
-[Article on CodyHouse](http://codyhouse.co/gem/stretchy-navigation/)
+[Article on CodyHouse](http://codyhouse.co/gem/animated-intro-section/)
 
-[Demo](http://codyhouse.co/demo/stretchy-navigation/index.html)
+[Demo](https://codyhouse.co/demo/animated-intro-section/index.html)
 
-Icons: [Nucleo](https://nucleoapp.com/)
+Video: [Mazwai](http://mazwai.com/#/)
  
 [Terms](http://codyhouse.co/terms/)
