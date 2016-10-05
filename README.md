@@ -1,12 +1,6 @@
-Animated Intro Section
+Eric Snyder
 =========
 
-A collection of fancy text effects, to animate the tagline and action buttons of your website intro section.
+A basic Github Pages site to serve as a personal portfolio, as well as an independent example of my work. 
 
-[Article on CodyHouse](http://codyhouse.co/gem/animated-intro-section/)
-
-[Demo](https://codyhouse.co/demo/animated-intro-section/index.html)
-
-Video: [Mazwai](http://mazwai.com/#/)
- 
-[Terms](http://codyhouse.co/terms/)
+Special thanks to CodyHouse for it's wonderful resources with regard to the contact form.
