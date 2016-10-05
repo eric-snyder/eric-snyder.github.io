@@ -12,10 +12,10 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: 'Anonymous Pro', monospace;
   color: #6d7a97;
   background-color: #ffecd8;
+  font-size: 1.6rem;
+  font-family: 'Anonymous Pro', monospace;
 }
 
 a {
@@ -24,6 +24,7 @@ a {
 }
 
 h1 {
+  color: #000000;
   font-family: 'Poppins', sans-serif;
   font-size: 500px;
 }
