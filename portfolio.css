@@ -14,9 +14,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Anonymous Pro', monospace;
-  color: #000000;
+  color: #6d7a97;
   background-color: #ffecd8;
-  padding-left: 10%;
 }
 
 a {
@@ -40,8 +39,4 @@ h2 {
     height: 325px;
     text-align: left;
     background-size: auto 100%;
-}
-
-div.row {
-  margin-bottom: 10%;
 }
