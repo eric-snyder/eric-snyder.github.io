@@ -12,19 +12,19 @@ html {
 }
 
 body {
-  color: #6d7a97;
+  color: #212121;
   background-color: #ffecd8;
   font-size: 1.6rem;
   font-family: 'Anonymous Pro', monospace;
 }
 
 a {
-  color: #000000;
+  color: #6200EA;
   text-decoration: none;
 }
 
 h1 {
-  color: #000000;
+  color: #424242;
   font-family: 'Poppins', sans-serif;
   font-size: 6.5rem;
   font-weight: bold;
@@ -33,7 +33,7 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
-  color: #000000;
+  color: #424242;
 
 }
 
@@ -45,6 +45,10 @@ header {
 
 .row{
   margin-top: 1%;
+}
+
+img {
+  margin-top: 10px;
 }
 
 #picture {
