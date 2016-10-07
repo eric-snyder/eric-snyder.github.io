@@ -12,19 +12,19 @@ html {
 }
 
 body {
-  color: #212121;
-  background-color: #ffecd8;
+  color: #fff;
+  background-color: #455A64;
   font-size: 1.6rem;
   font-family: 'Anonymous Pro', monospace;
 }
 
 a {
-  color: #6200EA;
+  color: #03A9F4;
   text-decoration: none;
 }
 
 h1 {
-  color: #424242;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 6.5rem;
   font-weight: bold;
@@ -33,7 +33,7 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
-  color: #424242;
+  color: #CFD8DC;
 
 }
 
