@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+a:focus, a:hover, a:active {
+  color: #0288D1;
+}
+
 h1 {
   color: #fff;
   font-family: 'Rubik', sans-serif;
