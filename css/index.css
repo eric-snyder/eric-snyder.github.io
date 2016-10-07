@@ -14,18 +14,18 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Anonymous Pro', monospace;
-  color: #212121;
-  background-color: #ffecd8;
+  color: #FFFFFF;
+  background-color: #607D8B;
 }
 
 a {
-  color: #6200EA;
+  color: #CFD8DC;
   text-decoration: none;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  color: #424242;
+  color: #ffffff;
 }
 
 /* -------------------------------- 
@@ -48,8 +48,8 @@ General Style
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  background-color: #607D8B;
   padding: 0 5%;
-  background: #ffecd8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -89,11 +89,11 @@ General Style
   display: inline-block;
   padding: 1.2em 1.4em;
   font-size: 1.3rem;
-  color: #ffecd8;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  background-color: #0D47A1;
+  background-color: #03A9F4;
   border-radius: .25em;
   margin-right: 1.5em;
 }
@@ -101,11 +101,11 @@ General Style
   margin-right: 0;
 }
 .cd-btn.main-action {
-  background-color: #880E4F;
+  background-color: #455A64;
 }
 @media only screen and (min-width: 480px) {
   .cd-btn {
-    padding: 1.2em 1.6em;
+    padding: 1.2em 1.6em;`
   }
 }
 @media only screen and (min-width: 768px) {
@@ -739,7 +739,7 @@ Mask
   left: 0;
   height: 100%;
   width: 100%;
-  color: #000000;
+  color: #FFFFFF;
   -webkit-animation-name: cd-reveal-up;
   -moz-animation-name: cd-reveal-up;
   animation-name: cd-reveal-up;
@@ -760,7 +760,7 @@ Mask
   left: -1em;
   height: 2px;
   width: calc(100% + 2em);
-  background-color: #000000;
+  background-color: #455A64;
   -webkit-animation: cd-loading-mask 1s 0.3s both;
   -moz-animation: cd-loading-mask 1s 0.3s both;
   animation: cd-loading-mask 1s 0.3s both;
