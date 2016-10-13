@@ -19,7 +19,7 @@ html * {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #FFFFFF;
   background-color: #607D8B;
 }
@@ -34,7 +34,7 @@ a:focus, a:hover, a:active {
 }
 
 h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #ffffff;
 }
 

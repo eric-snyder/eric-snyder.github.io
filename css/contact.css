@@ -19,7 +19,7 @@ html * {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #fff;
   background-color: #607D8B;
 }
@@ -35,7 +35,6 @@ a:focus, a:hover, a:active {
 
 h1 {
   margin-bottom: 20px;
-  font-family: 'Rubik', sans-serif;
   font-size: 52px; 
 }
 
@@ -87,7 +86,6 @@ Form
   display: block;
 }
 .cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
-  font-family: "Anonymous Pro", monospace;
   font-size: 1.6rem;
   color: #fff;
 }

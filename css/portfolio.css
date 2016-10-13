@@ -21,7 +21,7 @@ body {
   color: #fff;
   background-color: #607D8B;
   font-size: 1.6rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a {
@@ -35,13 +35,10 @@ a:focus, a:hover, a:active {
 
 h1 {
   color: #fff;
-  font-family: 'Rubik', sans-serif;
   font-size: 6.5rem;
-  font-weight: bold;
 }
 
 h2 {
-  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
   color: #CFD8DC;
 
