@@ -3,77 +3,94 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/index.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link href="new.css" rel="stylesheet">
   	
 	<title>| Eric Snyder |</title>
 </head>
 <body>
+	<div class="jumbotron">
 
-<a href="#cd-nav" class="cd-nav-trigger">Menu 
-	<span class="cd-nav-icon"></span>
-
-	<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
-		<circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-	</svg>
-</a>
-
-<div id="cd-nav" class="cd-nav">
-	<div class="cd-navigation-wrapper">
-		<div class="cd-half-block">
-			<h2>Navigation</h2>
-
-			<nav>
-				<ul class="cd-primary-nav">
-					<li><a href="/index.html">Home</a></li>
-					<li><a href="/portfolio.html">Portfolio</a></li>
-					<li><a href="/contact.html">Contact me</a></li>
-				</ul>
-			</nav>
-		</div><!-- .cd-half-block -->
-			
-		<div class="cd-half-block">
-			<address>
-				<ul class="cd-contact-info">
-					<li><a href="mailto:eric.snyder@tufts.edu">eric.snyder@tufts.edu</a></li>
-					<li>518.795.4659</li>
-					<li>
-						<span>15 Emery Street</span>
-						<span>Medford, MA</span>
-					</li>
-				</ul>
-			</address>
-		</div> <!-- .cd-half-block -->
-	</div> <!-- .cd-navigation-wrapper -->
-</div> <!-- .cd-nav -->
-
-<main><!-- this part gets pushed over -->
-	<section class="cd-intro">
-		<div class="cd-intro-content mask">
-			<h1 data-content="Eric T. Snyder &middot; UX Design"><span>Eric Snyder &middot; UX Design</span></h1>
-			<p>
-				<a href="http://bit.ly/2d6uPhW">Human Factors</a> and <a href="http://bit.ly/2cVz8ih">Computer Science</a> student at <a href="https://www.tufts.edu/">Tufts University</a> with strong opinions about digital design trends. I'm a pensive typography devotee, an incidental history geek, and ardent burlesque choreographer. Most importantly, I know the best places to get donuts in Boston. <br><br>
-
-				Previously at <a href="https://www.everquote.com/">EverQuote</a> in Cambridge as a UX and front-end engineering intern. 
-			</p>
-			<div class="action-wrapper">
-				<p>
-					<a href="/portfolio" class="cd-btn main-action">portfolio</a>
-					<a href="/contact" class="cd-btn">contact</a>
-				</p>
+		<div class="container-fluid header-intro">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 eggshell intro-tile tall">
+					<div class="tile-content header">
+						<h2>Eric T. Snyder</h2>
+						<h1 class="big">Student<br>at Tufts</h1>
+						<div class="contact-links">
+							<a class="btn btn-link" href="mailto:eric.snyder@tufts.edu?Subject=Hey%20Eric">eric.snyder@tufts.edu</a>
+						</div>
+						<div class="social-media-links">
+							<a class="btn btn-link" href="https://www.linkedin.com/in/eric-snyder-086445129">LinkedIn</a>
+							<a class="btn btn-link" href="https://gihub.com/eric-snyder">GitHub</a>
+							<a class="btn btn-link" href="https://medium.com/@ethomassnyder">Medium</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 gunmetal intro-tile tall short-mobile">
+					<img id="icon" class="img-responsive" src="img/icon.svg">
+				</div>
 			</div>
 		</div>
 
-	</section>
-</main>
+		<div class="container-fluid frontend">
+			<div class="row">
+				<div class="col-sm-6 intro-tile">
+					<div class="tile-content frontend-tile">
+						<h1>Front End Dev</h1>
+						<p>As a <a class="bold" href="http://bit.ly/2cVz8ih">computer science</a> minor (and onetime major) at Tufts University, I have a well-rounded background in practice, using knowledge from classes like data structures, discrete math, and web engineering.</p> 
+						
+						<p>Previously at <a class="bold" href="https://www.everquote.com/">EverQuote</a> in Cambridge as a UX/front-end engineering intern, I enjoy working across the stack with Ruby, jQuery, C++ and more.</p>
+						<a class="bold" href="#0">Read more.</a>
+					</div>
+				</div>
+				<div class="col-sm-6 intro-tile">
+					<img id="ruby" class="img-responsive" src="img/ruby.svg">
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid uxdev">
+			<div class="row">
+				<div class="col-sm-6 intro-tile">
+					<div class="tile-content uxdev-tile">
+						<h1>UX</h1>
+						<p>Integrating design thinking and problem-solving skills as a <a class="bold" href="http://bit.ly/2d6uPhW">Human Factors</a> student enables me to tackle design problems, both as an artist and as a scientist, by systemically analyzing issues regarding research, accessibility, and ergonomics.</p> 
+
+						<p>I frequently collaborate in student-led initiatives to develop for local nonprofits like <a class="bold" href="http://codesquad.strikingly.com/">CodeSquad</a> and Greater Boston Legal Services. I prototype with technologies like Sketch and <a class="bold" href="https://balsamiq.com/">Balsamiq</a>, and then carefully A/B test and conduct user research.</p>
+						<a class="bold" href="#0">Read more.</a>
+					</div>
+				</div>
+				<div class="col-sm-6 intro-tile">
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid designer">
+			<div class="row">
+				<div class="col-sm-6 intro-tile">
+					<div class="tile-content designer-tile">
+						<h1>Design</h1>
+						<p>Full disclosure: I'm a fan of brutalism.</p> 
+						
+						<p>...but I can be flexible. Classes in typography have refined my design sensibilites, and and work as a designer in hackathons and student-led projects has given me the freedom to exercise creatively, primarily in the digital realm with software like Illustrator, InDesign, and Photoshop.</p>
+
+						<a class="bold" href="#0">Read more.</a>
+					</div>
+				</div>
+				<div class="col-sm-6 intro-tile">
+					<img class="img-responsive" src="img/monogram.svg">
+				</div>
+			</div>
+		</div>
+
+	</div>
 	
 <script src="js/jquery-2.1.4.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-<script src="js/nav.js"></script> <!-- Resource jQuery -->
 
 </body>
 </html>

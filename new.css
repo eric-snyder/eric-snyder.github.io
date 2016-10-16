@@ -1,0 +1,220 @@
+body {
+    font-family: 'Work Sans';
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #454F5C;
+}
+
+p {
+    font-family: "Work Sans";
+    font-weight: lighter;
+}
+
+a {
+    color: #4FC3F7;
+}
+
+.jumbotron {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    font-size: 72px;
+    margin-top: 0px;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.jumbotron h2 {
+    font-size: 27px;
+    color: #03A9F4;
+}
+
+h1:hover, h2:hover {
+    cursor: default;
+}
+
+.btn-link {
+    padding: 0px;
+}
+
+#ruby {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#icon {
+    width: 300px;
+    fill: #FAFAFA;
+    display: block;
+    margin: auto;
+}
+
+/* FIRST TILE*/
+.intro-tile {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.intro-tile h1 {
+    font-size: 72px;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    color: #424242;
+}
+
+.social-media-links a, .contact-links a {
+    font-size: 18px;
+}
+
+.social-media-links a {
+    color: #738599;
+    padding-right: 10px;
+    font-family: "Work Sans";
+    font-weight: lighter;
+}
+
+.social-media-links a:hover {
+    color: #454F5C;
+}
+
+.contact-links a {
+    color: #454F5C;
+    margin-bottom: 10px;
+}
+
+.contact-links a:hover {
+    color: #2E333D;
+}
+
+.gunmetal {
+    background-color: #607D8B;
+}
+
+.eggshell {
+    background-color: #FAFAFA;
+}
+
+.tile-content.header {
+    padding: 0px 60px;
+}
+/* */
+
+/* UXDEV STYLES */
+.uxdev {
+    background: url(img/stagpoly.svg) right center;
+    background-attachment: fixed;
+    background-color: #CFD8DC;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.tile-content.uxdev-tile {
+    padding-left: 60px;
+}
+
+.uxdev h1, .uxdev p {
+    color: #2E333D;
+}
+
+.uxdev a {
+    color: #D32F2F;
+}
+/* */
+
+/* DESIGNER TILE*/
+.designer {
+    background: url(img/forest.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.tile-content.designer-tile {
+    padding-left: 60px;
+    color: #FAFAFA;
+}
+
+.designer-tile h1, .designer-tile p {
+    color: #FAFAFA;
+}
+/* */
+
+
+/* FRONTEND STYLES*/
+.frontend {
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjNDI0MjQyIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzc1NzU3NSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYxNjE2MSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");    background-attachment: fixed;
+    background-repeat: repeat;
+    min-height: 500px;
+}
+
+.frontend p, .frontend h1 {
+	color: #fcfcfc;
+} 
+
+.tile-content.frontend-tile {
+    padding-left: 60px;
+    color: #fcfcfc;
+}
+
+.frontend a:hover, .frontend a:active, .frontend a:focus {
+    color: #FFCCBC;
+}
+/* */
+
+.bold {
+    font-family: "Work Sans";
+    font-weight: bold;
+}
+
+.regular {
+    font-family: "Work Sans"
+}
+
+@media only screen and (max-width : 768px) {
+    .intro-tile {
+        min-height: 70vh;
+        max-height: 70vh;
+    }
+
+    .intro-tile h1.big {
+        font-size: 62px;
+    }
+
+    .big {
+        font-size: 62px;
+    }
+
+    .intro-tile.tall {
+        min-height: 100vh;
+    }
+
+    span.line {
+      display: inline-block;
+    }
+
+    .tile-content.designer-tile, .tile-content.frontend-tile {
+        padding: 0px 20px;
+    }
+
+    .tile-content.header {
+        padding: 0px 20px;
+    }
+
+    .frontend, .uxdev, .designer {
+        background-attachment: scroll;
+    }
+}
+
+
+
