@@ -53,6 +53,12 @@ h1:hover, h2:hover {
     margin: auto;
 }
 
+#monogram {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
 /* FIRST TILE*/
 .intro-tile {
     min-height: 100vh;
