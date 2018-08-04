@@ -23,7 +23,7 @@ a {
   transition: all 0.3s
 }
 
-h1,h2 {
+h1,h2,h3 {
   font-family: 'Vollkorn', serif;
   margin: 0;
 }
@@ -41,6 +41,8 @@ h2 {
       font-size: 40px; } }
 
 h3 {
+  margin-top: .3em;
+  margin-bottom: .3em;
   font-size: 20px; }
   @media screen and (min-width: 680px) {
     h3 {
@@ -156,25 +158,6 @@ button:focus {
   display: table-cell;
 }
 
-#social-media {
-  text-align: left;
-  padding: 80px;
-}
-
-#work-header {
-  display: inline-block;
-}
-
-#project-grid {
-  width: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-#footer {
-
-}
-
 .background {
   background-color: #FFF;
 }
@@ -184,25 +167,17 @@ button:focus {
   height: 24px;
 }
 
-.project-item {
-  margin-bottom: 22px;
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.12);
-  background-color: #fff;
-  float:left;
-  width: 40%;
-  margin: 5%;
+.work-section {
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 
-.project-item:hover {
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
+.work-caption {
+  margin-top: 1em;
 }
 
-.project-cap {
-  padding-left: .8em;
-}
-
-.work-header {
-  display: inline-block;
+.social-media {
+  float: right;
 }
 
 .underline {

@@ -5,19 +5,103 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Eric Snyder is a Human Factors grad from Tufts University. He does work in design research and product.">
 	<link rel="icon" type="image/png" href="favicon.png">
-
-
 	<title>Eric Snyder</title>
-
 	<link href="css/index.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+	      // Store hash
+	      var hash = this.hash;
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 1000, function(){
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+	</script>
 
 </head>
 <body>
 <div class="container">
 
 	<div id="header" class="background">
-    <h1 class=""><a href="#" class="underline">Eric Snyder</a> is a <a class="underline" href="http://www.apa.org/action/science/human-factors/education-training.aspx">Human Factors</a> Researcher living in San Francisco.</a></h1>
-    <div class="social-media">
+    <h1 class=""><a href="#" class="underline">I'm Eric</a>, a UX researcher and designer in San Francisco.</h1>
+    <div>
+			<ul>
+				<li class="underline"><a href="#work">Work</a></li>
+				<li class="underline"><a href="#about">About</a></li>
+				<li><a href="Resume-EricSnyder.pdf" download="Resume-EricSnyder"><button class="work-header">Download Resume</button></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="work" class="work-section">
+		<h3>UX Researcher @ Cognito Therapeutics</h3>
+		<h4>February 2018 - Present</h4>
+		<img src="../img/cognito-slide.png">
+		<p class="work-caption">I joined Cognito Therapeutics during the final semester of my Human Factors program at Tufts University. I've designed and moderated studies involving vigorous qualitative and quantitative methodology to generate novel, actionable insights. I also developed a new marketing style guide as part of my efforts to create promotional material for the 2018 AAIC Conference in Chicago.</p>
+		<ul>
+			<li class="underline"><a href="https://www.cognitotx.com/">View website</a></li>
+			<li class="underline"><a href="">Usability research case study</a></li>
+			<li class="underline"><a href="">Marketing design</a></li>
+		</ul>
+	</div>
+
+	<div class="work-section">
+		<h3>UX Design Intern @ Ultra Capital</h3>
+		<h4>September 2017 - November 2017</h4>
+		<img src="../img/ultra-slide.png">
+		<p class="work-caption">Starting as the sole UX professional on the Ultra Capital tech team taught me the value of design evangelism and clear communication to technical and non-technical audiences. I collaborated with local and remote coworkers to ideate, design, and test the functionality of new in-house software, leading to more efficient analyst work and increased cross-team cohesion.</p>
+		<ul>
+			<li class="underline"><a href="http://www.ultracapital.com/">View website</a></li>
+			<li class="underline"><a href="">Product design & ideation case study</a></li>
+		</ul>
+	</div>
+
+	<div class="work-section">
+		<h3>Product Intern @ Invaluable</h3>
+		<h4>February 2018 - Present</h4>
+		<img src="../img/invaluable-slide.png">
+		<p class="work-caption">As Invaluable's Product intern, it was my responsibility to organize, contextualize, and discover key metrics to create value for our customers through intelligent product recommendations. Leading remote and in-person usability testing sessions with the UX team helped me uncover a passion for user research, and our sessions honed my qualitative research skills.</p>
+		<ul>
+			<li class="underline"><a href="https://www.invaluable.com/">View website</a></li>
+			<li class="underline"><a href="">Hack day case study</a></li>
+		</ul>
+	</div>
+
+	<div class="work-section">
+		<h3>UI Engineering Intern @ EverQuote</h3>
+		<h4>February 2018 - Present</h4>
+		<img src="../img/everquote-slide.png">
+		<p class="work-caption">My first tech internship at EverQuote provided me the opportunity to pick up new skills quickly. I was responsible for optimizing our Rails web app while responding to bug tickets and A/B test results flagged by our analyst team. While here, I used Adobe Illustrator for the first time to research and design a marketing infographic for EQ's blog.</p>
+		<ul>
+			<li class="underline"><a href="https://www.everquote.com/">View website</a></li>
+			<li class="underline"><a href="">Graphic design case study</a></li>
+		</ul>
+	</div>
+
+	<div id="about"class="work-section">
+		<h3>Bio</h3>
+		<p class="work-caption">Originally from upstate New York, I've spent the last few 4 years studying for my Engineering Psychology degree from Tufts University. I learned principles of experimental & cognitive psychology, taught myself about design, and led 2 on-campus dance groups.</p>
+		<p class="work-caption">My user research is supported by a strong foundation in design and web development. Using a variety of quantitative and qualitative methods makes my insight rigorous, holistic, and impactful.</p>
+		<p class="work-caption">As a designer I emphasize consistency, accessibility, and efficiency. I love to collaborate across teams to democratize the design process and facilitate new input. I always test my designs to ground my work in reality, ensuring that both business and user needs are considered.</p>
+	</div>
+
+	<hr>
+	<footer id="footer">
+		<div>
 			<ul>
 				<li class="underline"><a href="https://www.behance.net/ericsnyder9cb4"><img class="icon" src="../img/icons/behance.svg"></a></li>
 				<li class="underline"><a href="https://www.linkedin.com/in/eric-snyder-086445129/"><img class="icon" src="../img/icons/linkedin.svg"></a></li>
@@ -25,57 +109,7 @@
 				<li class="underline"><a href="https://medium.com/@ethomassnyder"><img class="icon" src="../img/icons/medium.svg"></a></li>
 			</ul>
 		</div>
-	</div>
-
-	<div id="experience">
-		<h4 class="work-header">Experience</h4>
-		<a href="Resume-EricSnyder.pdf" download="ESnyder_Resume"><button class="work-header">Download Resume</button></a>
-	</div>
-
-	<hr>
-
-	<div id="project-grid">
-
-		<a href="https://www.cognitotx.com/">
-			<div class="project-item">
-				<div class="project-image"><img src="/img/cognito-logo.png"></div>
-				<div class="project-cap">
-					<h5>Cognito - Product Researcher - Spring 2018</h5>
-					<p>Design Research, Education Design</p>
-				</div>
-			</div>
-		</a>
-
-		<a href="https://www.behance.net/gallery/60613137/Ultra-Capital-UX-Design">
-			<div class="project-item">
-				<div class="project-image"><img src="/img/ultra.png"></div>
-				<div class="project-cap">
-					<h5>Ultra Capital - UX Intern - Fall 2017</h5>
-					<p>UI &amp; Interaction Design, UX Research</p>
-				</div>
-			</div>
-		</a>
-
-		<a href="https://www.invaluable.com/">
-			<div class="project-item">
-				<div class="project-image"><img src="/img/INV.png"></div>
-				<div class="project-cap">
-					<h5>Invaluable - Product Intern - Summer 2017</h5>
-					<p>Product Development, UX Research</p>
-				</div>
-			</div>
-		</a>
-
-		<a href="https://www.everquote.com">
-			<div class="project-item">
-				<div class="project-image"><img src="/img/EverQuote/EQ.png"></div>
-				<div class="project-cap">
-					<h5>EverQuote - UI Engineer Intern - Summer 2016</h5>
-					<p>Front-End, Graphic & UX Design</p>
-				</div>
-			</div>
-		</a>
-	</div>
+	</footer>
 
 </div>
 
